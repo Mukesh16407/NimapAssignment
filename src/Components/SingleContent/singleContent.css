@@ -1,0 +1,30 @@
+.singlePage {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 550) {
+  .media {
+    width: 46%;
+  }
+}
+.poster {
+  border-radius: 10px;
+}
+.title {
+  width: 100%;
+
+  text-align: center;
+  font-size: 17px;
+  padding: 8px 0px;
+}
+.subTitle {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 2px;
+  padding-bottom: 3px;
+}
